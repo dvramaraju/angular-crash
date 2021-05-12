@@ -1,0 +1,43 @@
+@media (max-width: 500px) {
+    .none {
+        display: none;
+    }
+    .block {
+        display: block;
+    }
+}
+
+.dropdown>.dropdown-menu {
+    display: block;
+}
+
+div>a {
+    align-items: right;
+}
+
+.nav-item {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 550;
+    color: #2d3e50;
+    margin-right: 15px;
+}
+
+.nav-item:hover {
+    color: green !important;
+}
+
+.btns {
+    border: none !important;
+    outline: none !important;
+}
+
+.img {
+    height: 15px;
+    width: 15px;
+    background-color: green;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
