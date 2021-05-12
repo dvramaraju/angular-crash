@@ -1,37 +1,37 @@
 h1 {
-    font-family: sans-serif;
-    margin: 10px auto;
-    text-align: center !important;
-    font-size: 40px;
-    max-width: 300px;
-    position: relative;
-    z-index: -1;
+  font-family: sans-serif;
+  margin: 10px auto;
+  text-align: center !important;
+  font-size: 40px;
+  max-width: 300px;
+  position: relative;
+  z-index: -1;
 }
 
-h1>img {
-    z-index: -1;
+h1 > img {
+  z-index: -1;
 }
 
 h1:before {
-    content: "";
-    display: block;
-    width: 120px;
-    height: 2px;
-    background: #000;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    z-index: -2;
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -2;
 }
 
 h1:after {
-    content: "";
-    display: block;
-    width: 120px;
-    height: 2px;
-    background: #000;
-    position: absolute;
-    right: 0;
-    top: 50%;
-    z-index: -2;
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: -2;
 }

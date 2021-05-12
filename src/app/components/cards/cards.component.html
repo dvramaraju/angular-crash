@@ -1,28 +1,53 @@
-<div class="single-item-image overlay-effect">
-    <a href="#"><img src="{{ img }}" alt="" /></a>
-</div>
-<div class="single-item-text">
-    <h4>
-        <a href="#">{{ title }}</a>
-    </h4>
-    <div class="single-item-text-info">
-        <span>By: <span>{{ author }}</span></span>
-        <span>Date: <span>20.5.15</span></span>
-    </div>
-    <p>
-        There are many variations of sages of Lorem Ipsum available, but the mrity have suffered alteration in some orm, by injected humo ur,There are many but the mri have suffered alteration in some
-    </p>
-    <div class="single-item-content">
-        <div class="single-item-comment-view">
-            <span><img id="img" src="../../../assets/eye.png" alt="" />59</span>
-            <span style="padding-left: 20px;"><img id="img" src="../../../assets/chat.png" alt="" />19</span>
+<div class="single-item">
+  <div
+    class="card"
+    style="
+      margin-left: 20%;
+      border: none;
+      height: 33rem;
+      width: 18rem;
+      color: #2d3e50;
+      border-bottom: 4px solid #86bc42;
+    "
+  >
+    <img src="{{ img }}" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title">
+        <b>{{ title }}</b>
+      </h5>
+      <div style="display: flex">
+        <div style="display: flex">
+          By:&nbsp;
+          <div>{{ author }}</div>
         </div>
-        <div class="single-item-rating">
-            <img src="../../../assets/star.png" id="img" alt=" " />
-            <img src="../../../assets/star.png" id="img" alt=" " />
-            <img src="../../../assets/star.png" id="img" alt=" " />
-            <img src="../../../assets/star.png" id="img" alt=" " />
-            <img src="../../../assets/rating.png" id="img" alt=" " />
+        <div class="flex">
+          Date:&nbsp;
+          <div>20.5.15</div>
         </div>
+      </div>
+      <p class="card-text">
+        There are many variations of sages of Lorem Ipsum available, but the
+        mrity have suffered alteration in some orm, by injected humo ur,There
+        are many but the mri have suffered alteration in some
+      </p>
+      <div style="display: flex">
+        <div>
+          <img src="../../../assets/eye.png" class="img" alt="" /> 19
+          <img src="../../../assets/chat.png" class="img" alt="" /> 39
+        </div>
+        <div class="pb-4 pt-4" style="margin-left: 50px">
+          <img src="../../../assets/star.png" alt="" class="img" />
+          <img src="../../../assets/star.png" alt="" class="img" />
+          <img src="../../../assets/star.png" alt="" class="img" />
+          <img src="../../../assets/star.png" alt="" class="img" />
+          <img src="../../../assets/rating.png" alt="" class="img" />
+        </div>
+      </div>
+      <div class="text-center">
+        <a href="#" class="btn text-white ho" style="background-color: #86bc42">
+          LEARN MORE
+        </a>
+      </div>
     </div>
+  </div>
 </div>
